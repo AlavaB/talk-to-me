@@ -1,6 +1,16 @@
+import { Route } from 'react-router-dom';
+
+import Layout from "./components/Layout/Layout";
+import AuthPage from "./pages/AuthPage";
+
+
 function App() {
   return (
-    <div>Bonjour le Monde!</div>
+    <Layout>
+      <Route path='/' exact>
+        <AuthPage />
+      </Route>
+    </Layout>
   );
 }
 

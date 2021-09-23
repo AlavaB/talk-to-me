@@ -1,0 +1,60 @@
+.auth {
+  margin: 5rem auto;
+  width: 95%;
+  max-width: 30rem;
+  background-color: #618685;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(51, 102, 153, 0.2);
+  text-align: center;
+}
+.control {
+  margin-bottom: 0.7rem;
+}
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.control input {
+  font: inherit;
+  width: 90%;
+  background-color: #fefbd8;
+  border-radius: 6px;
+  border: 1px solid #fefbd8; 
+  text-align: left;
+  padding: 0.25rem;
+}
+.control input:hover {
+  background-color: #d5f4e6;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action .button {
+  cursor: pointer;
+  font: inherit;
+  color: #50394c;
+  background-color: #d5f4e6;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 2.5rem;
+}
+.action .button:hover {
+  background-color: #80ced6;
+  border-color: #c6d9ec;
+  color: #fefbd8;
+}
+
+.toggle {
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #50394c;
+  background-color: transparent;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+.toggle:hover {
+  color: #fefbd8;
+}
