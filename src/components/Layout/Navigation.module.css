@@ -18,3 +18,18 @@
 .header li {
   margin: 0 1rem;
 }
+
+.logout {
+  cursor: pointer;
+  font: inherit;
+  color: #50394c;
+  background-color: #d5f4e6;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 2.5rem;
+}
+.logout:hover {
+  background-color: #80ced6;
+  border-color: #c6d9ec;
+  color: #fefbd8;
+}

@@ -7,15 +7,15 @@
   box-shadow: 0 1px 3px rgba(51, 102, 153, 0.2);
   text-align: center;
 }
-.control {
+.form-control {
   margin-bottom: 0.7rem;
 }
-.control label {
+.form-control label {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-.control input {
+.form-control input {
   font: inherit;
   width: 90%;
   background-color: #fefbd8;
@@ -24,8 +24,15 @@
   text-align: left;
   padding: 0.25rem;
 }
-.control input:hover {
+.form-control input:hover {
   background-color: #d5f4e6;
+}
+.invalid input {
+  background-color: red;
+}
+.error-text {
+  margin: 5px 0px;
+  color: #ff8c66;
 }
 .action {
   display: flex;
@@ -57,4 +64,13 @@
 }
 .toggle:hover {
   color: #fefbd8;
+}
+
+.invalid input {
+  border: #ffd9cc;
+  background-color: #ffd9cc;
+}
+.invalid input:focus {
+  border-color: #ffd9cc;
+  background-color: #ffd9cc;
 }

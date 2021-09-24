@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form-control {
+  margin-bottom: 0.7rem;
+}
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.form-control input {
+  font: inherit;
+  width: 90%;
+  background-color: #fefbd8;
+  border-radius: 6px;
+  border: 1px solid #fefbd8; 
+  text-align: left;
+  padding: 0.25rem;
+}
+.form-control input:hover {
+  background-color: #d5f4e6;
+}
+.form-control input:focus {
+  outline: none;
+  border-color: #ff8c66;
+  background-color: #ffd9cc;
+}
